@@ -1,0 +1,412 @@
+@import url('./reset.css');
+/*-- Reset Code --*/
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+	font-family: times new roman,'微軟正黑體';
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body a:focus, a:hover {
+    text-decoration: none;
+    outline:none;
+}
+
+input[type="button"], input[type="submit"], button.btn {
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+button[type="button"]:hover {
+    background-color: var(--wordColor);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.2px; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+	list-style: none;  /* add */
+}
+
+label {
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+:root {
+    --mainColor: #999b85;
+    --wordColor: #808080;
+    --lightColor: #f5eeee;
+    --darkColor: #757065;
+    --dangerColor: #d70000;
+}
+
+/*-- //Reset-Code --*/
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-color: #fefefe;
+	position: relative;
+	font-family: times new roman,'微軟正黑體';
+	color: #777;      /*大部分文字的顏色*/
+}
+
+.main{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h2{
+	line-height: 150px;
+	font-size: 6.0rem;
+	text-align: center;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+	margin: 0 auto;
+}
+
+h3{
+	font-size: 2.4rem;
+}
+
+p{
+	font-size: 1.8rem;
+	color: #777;
+	line-height: 1.6;
+}
+
+
+
+/*---------主視覺---------------------------------*/
+header{
+	background-image: url(../images/header_1.jpg);
+	background-size: cover;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	font-family: inherit;
+	color: #fefefe;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+	justify-content: center;
+  	align-items: center;
+}
+
+
+header h1{
+	font-size: 9.0rem;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+
+/*---------主選單---------------------------------*/
+.sel{
+	background-color: var(--darkColor);
+}
+
+.sel ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.sel li{
+	flex-grow: 1;
+}
+
+/* .sel a{
+	text-decoration: none;
+	display: block;
+	line-height: 65px;
+	text-align: center;
+	font-size: 2.2rem;
+	color: var(--lightColor);
+} */
+
+/* .sel a:hover{
+	background-color: #333;
+	color: #999b84;
+} */
+
+.sel button{
+	/* text-decoration: none; */
+	/* display: block; */
+	line-height: 65px;
+	/* text-align: center; */
+	font-size: 2.2rem;
+	color: var(--lightColor);
+	background-color: transparent;
+	border: 0;
+}
+
+.sel li:hover{
+	background-color: #333;
+	color: var(--mainColor);
+}
+
+/*-----------關於ABOUT----------------------------*/
+.about{
+	flex-wrap: wrap;
+	display: flex;
+	margin: 0 auto;	
+}
+
+.aboutbottom{
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+}
+
+.about img{
+	max-width: 85%;
+	display: block;
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, .3);
+	padding: 0;
+}
+
+.about a{
+	text-decoration: none;
+	color: #757065;
+}
+
+.about a:hover{
+	color: var(--mainColor);
+}
+
+
+
+
+/*-------------作品們COLLECTION------------------*/
+.collection{
+	background-color: var(--mainColor);
+	overflow: hidden;
+	color: var(--lightColor);
+	margin: 0 auto;
+	display: flex;
+}
+
+.collection ul{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+/* .collection a{
+	text-decoration: none;
+} */
+
+/* .collection a:hover{
+	opacity: 60%;
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
+} */
+
+.collection button:hover{
+	opacity: 60%;
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
+}
+
+.collection li{
+	margin-right: 10px;
+}
+
+.collection img{
+	display: block;
+}
+
+.collection h3{
+	text-align: center;
+	color: var(--lightColor);
+}
+
+/*-----------經歷EXPERINCE-----------------------*/
+.experience{
+	margin: 0 auto;
+	display: flex;
+}
+
+.exbottom{
+	margin: 0 auto;
+}
+
+.exbottom h4{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.remark {
+	font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+/*------------我會的技能SKILL----------------------*/
+.skill{
+	justify-content: center;
+	background-color: var(--mainColor);
+	margin: 0 auto;
+	display: flex;
+}
+
+.skill h2{
+	color: var(--lightColor);
+}
+
+.sk-list ul{
+	margin: 0 auto;
+}
+
+.sk-list li{
+	margin-bottom: 45px;
+	width: 300px;
+	line-height: 50px;
+	box-sizing: border-box;
+	border: 2px solid var(--lightColor);
+	color: var(--lightColor);
+	text-align: center;
+	text-decoration: none;
+	font-size: 2.0rem;
+}
+
+
+/*--------------社交軟體SOCIAL-------------------*/
+.social{
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+.so-bottom{
+	margin-bottom: 120px;
+	margin: 0 auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+
+
+.so-bottom a{
+	text-align: center;
+	flex-grow: 1;
+	transition: all 1s;
+}
+
+.so-bottom i:hover{
+	transform: scale(1.1);
+}
+
+
+
+.so-bottom i{
+	font-size:70px;
+	transition: all .5s;
+}
+
+
+
+/*--------------TOP buttom---------------------------------*/
+.top{
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.toTop{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 120px;
+	height: 45px;
+	background-color: var(--mainColor);
+	color:  var(--lightColor);
+	text-align: center;
+	line-height: 45px;
+	margin: 0px auto;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	border: transparent;
+}
+
+.toTop:hover{
+	background-color: #333;
+	color: var(--mainColor);
+}
+
+
+
+/*--------------COPYRIGHT---------------------------*/
+footer{
+	background-color: #3C3D35;
+	height: 30px;
+	margin: 0 auto;
+}
+
+footer p{
+	font-size: 12px;
+	color: var(--lightColor);
+	text-align: center;
+	line-height: 30px;
+}
+
+
+/*================= PAGE PATTERN ===================*/
+
+.btn-back {
+	border: 2px solid rgba(245, 238, 238, 0.8);
+	width: 190px;
+	color: rgba(245, 238, 238, 0.8);
+	text-align: center;
+	line-height: 45px;
+	margin: 0px auto;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 1s;
+	background-color: transparent;
+}
+
+.btn-back:hover {
+	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
+	color: white;
+	border: 2px solid white;
+}
