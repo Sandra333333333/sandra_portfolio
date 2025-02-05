@@ -3,5 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: true
 }),
 {
-  publicPath: './'
+  publicPath: 'sandra_portfolio/dist/'
 }
