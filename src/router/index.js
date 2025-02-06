@@ -18,6 +18,11 @@ const routes = [
     component: () => import('../views/Uiux.vue')
   },
   {
+    path: '/fixing',
+    name: 'fixing',
+    component: () => import('../views/FixingPage.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

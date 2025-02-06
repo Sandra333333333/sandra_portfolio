@@ -91,7 +91,7 @@
             </button>
           </div>
           <div class="col">
-            <button @click="changeToUiux" class="card w-100 d-block"
+            <button @click="changeToFixing" class="card w-100 d-block"
               style="background-color:rgba(255, 255, 255, .2);border-radius:10px;height:180px;">
               <!-- <img class="m-3" src="img/pattern1.jpg" alt=""> -->
               <i class="fa-solid fa-mobile-screen text-center m-4 align-item-center"
@@ -327,6 +327,9 @@ export default {
     },
     changeToUiux () {
       this.$router.push('/uiux') // 導航到 uiux 頁面
+    },
+    changeToFixing () {
+      this.$router.push('/fixing') // 導航到 fixing 頁面
     }
   }
 }

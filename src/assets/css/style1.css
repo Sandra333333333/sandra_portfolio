@@ -406,7 +406,8 @@ footer p{
 }
 
 .btn-back:hover {
-	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
+	/* text-shadow:  3px 3px 3px rgba(0, 0, 0, .5); */
 	color: white;
 	border: 2px solid white;
+	box-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
 }
