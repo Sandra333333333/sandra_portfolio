@@ -1,10 +1,14 @@
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 /*-- Reset Code --*/
 body {
     padding: 0;
     margin: 0;
     background: #FFF;
-	font-family: times new roman,'微軟正黑體';
+	/* font-family: times new roman,'微軟正黑體'; */
+	font-family: times new roman,"Noto Sans TC", serif;
+	font-style: normal;
+	font-optical-sizing: auto;
 }
 
 body a {
@@ -40,7 +44,8 @@ button[type="button"]:hover {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
-    letter-spacing: 1.2px; 
+    letter-spacing: 1.2px;
+	line-height: 1.6;
 }
 
 ul {
@@ -78,7 +83,7 @@ html{
 body{
 	background-color: #fefefe;
 	position: relative;
-	font-family: times new roman,'微軟正黑體';
+	/* font-family: times new roman,'微軟正黑體'; */
 	color: #777;      /*大部分文字的顏色*/
 }
 
@@ -104,6 +109,7 @@ p{
 	font-size: 1.8rem;
 	color: #777;
 	line-height: 1.6;
+	font-weight: 400;
 }
 
 
@@ -231,21 +237,28 @@ header h1{
 	opacity: 60%;
 	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
 } */
+.collection button {
+	transition: all 0.5s;
+	background-color:rgba(255, 255, 255, .2);
+	border-radius:18px;
+	height:210px;
+	opacity: 80%;
+}
 
-.collection button:hover{
-	opacity: 60%;
+.collection button:hover {
+	opacity: 100%;
 	text-shadow:  3px 3px 3px rgba(0, 0, 0, .5);
 }
 
-.collection li{
+.collection li {
 	margin-right: 10px;
 }
 
-.collection img{
+.collection img {
 	display: block;
 }
 
-.collection h3{
+.collection h3 {
 	text-align: center;
 	color: var(--lightColor);
 }

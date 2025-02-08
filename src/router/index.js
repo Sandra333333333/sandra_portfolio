@@ -18,6 +18,11 @@ const routes = [
     component: () => import('../views/Uiux.vue')
   },
   {
+    path: '/uiuxnew',
+    name: 'uiuxnew',
+    component: () => import('../views/UiuxNew.vue')
+  },
+  {
     path: '/fixing',
     name: 'fixing',
     component: () => import('../views/FixingPage.vue')

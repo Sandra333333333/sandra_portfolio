@@ -4,7 +4,7 @@
             <img src="@/assets/images/fixing_page.svg">
         </div>
         <div class="my-4 text-center">
-            <button @click="changeToHome" class="btn-back d-block p-2">
+            <button @click="changeToUiuxNew" class="btn-back d-block p-2">
                 <h3> - Back - </h3>
             </button>
         </div>
@@ -15,6 +15,9 @@ export default {
   methods: {
     changeToHome () {
       this.$router.push('/') // 導航回 Home 頁面
+    },
+    changeToUiuxNew () {
+      this.$router.push('/uiuxnew') // 導航到 uiuxnew 頁面
     }
   }
 }

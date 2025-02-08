@@ -58,19 +58,32 @@
         <h2>ABOUT</h2>
         <div class="row g-5 mb-5">
           <!-- aboutbottom -->
-          <img class="col-12 col-sm-4 mx-auto" src="@/assets/images/S_2539626.jpg" alt="selfie photo">
-
-          <p class="col-12 col-sm-8">
-            您好！我叫做張庭姍，目前於裕融企業股份有限公司擔任工程師一職，邏輯清晰，擅長與使用者討論並確認需求後開發，由於本身是設計背景出身因此具備使用設計軟體製作所需圖檔的技能。也擅長自主學習於工作中所需使用到語言及技術知識。希望能有機會獲得貴公司一場面試機會，感謝您!
+          <img class="col-12 col-md-5 col-lg-4 m-auto h-100" src="@/assets/images/S_2539626.jpg" alt="selfie photo">
+          <div class="col-12 col-md-7 col-lg-8 my-auto p-5">
+            <p style="font-weight: 700;">&ensp;# 關於我</p>
+            <p>我是張庭姍，擁有設計背景，熟悉各類設計軟體，並能將設計思維融入前端開發。同時，我對程式開發充滿熱情，擅長將設計與技術結合，熟悉 HTML、CSS、Bootstrap透過程式解決問題。在工作中，我具備清晰的邏輯思維與強大的學習能力，能夠有效與使用者溝通，理解需求並開發相應的解決方案。此外，我持續自主學習前端開發與網頁爬蟲技術，並積極關注最新的技術趨勢，提升自身能力。</p>
+            <br><br>
+            <!-- <p>工作經歷</p>
+            <p>台塑企業創意設計中心實習</p>
+            <p>在實習一年期間，我參與公司專案的視覺設計與素材製作，強化設計軟體應用能力，並於參與公司專案製作皮料樣冊時，提升對標準配色的掌握。</p>
             <br>
-            <a href="https://id.mcut.edu.tw/" target="_blank">
+            <p>前端開發與維運(Vue.js & Bootstrap)</p>
+            <p>自學 Vue3 框架及 Bootstrap，運用於公司官網開發與維護，提升網站效能，並運用公司標準色開發官網新頁面;熟悉 Git 版本控制，進行程式碼管理與團隊協作。</p>
+            <p>跨部門溝通與協作</p>
+            <p>與內部團隊及不同部門合作，確認專案需求並提出解決方案，同時，配合後端工程師 API 介接，確保系統功能順利運行。</p>
+            <p>精進 Python，學習網頁爬蟲技術</p>
+            <p>去年下半年專注於學習可用於網頁爬蟲與數據抓取技術的Python語言，透過課堂中實作，掌握數據抓取與資料處理概念，提升對後端的理解。</p>
+            <br> -->
+            <p style="font-weight: 700;">&ensp;# 未來規劃</p>
+            <p>回顧過去的工作經驗，我累積了使用者需求確認及跨部門溝通的能力，也了解專案開發流程。未來，我期許自己持續精進 Vue.js 前端開發技能，並深化應用，同時提升策略思考與商業分析能力。此外，我也將持續學習後端資料處理技術，以提升團隊合作的效率，幫助公司解決問題並創造價值。</p>
+          </div>
+          <!-- <a href="https://id.mcut.edu.tw/" target="_blank">
               ＃明志科技大學 工業設計系 畢業
             </a>
             <br>
             <a href="http://home.slhs.tp.edu.tw/adv/index.html" target="_blank">
               ＃士林高商 廣告設計科 畢業
-            </a>
-          </p>
+            </a> -->
         </div>
       </div>
     </div>
@@ -82,8 +95,7 @@
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5 mb-5">
           <div class="col">
-            <button @click="changeToPattern" class="card w-100 d-block"
-              style="background-color:rgba(255, 255, 255, .2);border-radius:10px;height:180px;">
+            <button @click="changeToPattern" class="card w-100 d-block">
               <!-- <img class="m-3" src="img/pattern1.jpg" alt=""> -->
               <i class="fa-solid fa-chess-board text-center m-4 align-item-center"
                 style="font-size:65px; color:#fff;"></i>
@@ -91,8 +103,7 @@
             </button>
           </div>
           <div class="col">
-            <button @click="changeToFixing" class="card w-100 d-block"
-              style="background-color:rgba(255, 255, 255, .2);border-radius:10px;height:180px;">
+            <button @click="changeToUiuxNew" class="card w-100 d-block">
               <!-- <img class="m-3" src="img/pattern1.jpg" alt=""> -->
               <i class="fa-solid fa-mobile-screen text-center m-4 align-item-center"
                 style="font-size:65px; color:#fff;"></i>
@@ -164,9 +175,7 @@
 
           <div>
 
-            <h4>
-              工程師 // 裕融企業股份有限公司 // 台北市大安區 // 2022. 04 - 在職中
-            </h4>
+            <h4>工程師 // 裕融企業股份有限公司 // 台北市大安區 // 2022. 04 - 2024. 07</h4>
             <p class="remark">
               #adobe illustrator #adobe photoshop #adobe XD #vue #bootstrap #css #html
             </p>
@@ -180,9 +189,7 @@
           </div>
 
           <div class="mt-5">
-            <h4>
-              約聘人員 // 新北市文化局文設科-板橋435藝文特區 // 新北市板橋區 // 2021. 01 - 2021. 12
-            </h4>
+            <h4>約聘人員 // 新北市文化局文設科-板橋435藝文特區 // 新北市板橋區 // 2021. 01 - 2021. 12</h4>
             <p class="remark">
               #adobe illustrator #adobe photoshop #word #google excel #excel
             </p>
@@ -194,9 +201,7 @@
           </div>
 
           <div class="my-5">
-            <h4>
-              設計實習生 // 台塑總管理處創意設計中心 // 台北市松山區 // 2018. 09 - 2019. 09
-            </h4>
+            <h4>設計實習生 // 台塑總管理處創意設計中心 // 台北市松山區 // 2018. 09 - 2019. 09</h4>
             <p class="remark">
               #adobe illustrator #adobe photoshop #adobe indesign
             </p>
@@ -215,11 +220,11 @@
         <!-- 移出class="main" -->
         <h2>SKILL</h2>
         <div class="sk-list">
-            <ul class="row g-3 justify-content-around">
-              <li class="col-12 col-md-4" v-for="(skill, index) in skills" :key="index">
-                {{ skill.name }}
-              </li>
-            </ul>
+          <ul class="row g-3 justify-content-around">
+            <li class="col-12 col-md-4" v-for="(skill, index) in skills" :key="index">
+              {{ skill.name }}
+            </li>
+          </ul>
         </div>
 
       </div>
@@ -327,6 +332,9 @@ export default {
     },
     changeToUiux () {
       this.$router.push('/uiux') // 導航到 uiux 頁面
+    },
+    changeToUiuxNew () {
+      this.$router.push('/uiuxnew') // 導航到 uiuxnew 頁面
     },
     changeToFixing () {
       this.$router.push('/fixing') // 導航到 fixing 頁面
