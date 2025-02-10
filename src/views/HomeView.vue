@@ -238,30 +238,35 @@
         <h2>SOCIAL</h2>
         <ul class="so-bottom g-5 mb-5 row justify-content-around">
 
-          <li class="col-12 col-sm-3 text-center">
+          <!-- TODODEL -->
+          <!-- <li class="col-12 col-sm-3 text-center">
             <a href="https://www.facebook.com/sandra.purple.73/" target="_blank">
               <i class="fa-brands fa-square-facebook" style="color: #999b85;"></i>
             </a>
+          </li> -->
+          <!-- TODODEL -->
+          <li class="col-12 col-md-4 text-center my-5">
+            <a href="https://github.com/Sandra333333333" target="_blank">
+              <i class="fa-brands fa-github" style="color: #999b85;"></i>
+            </a>
           </li>
-
-          <li class="col-12 col-sm-3 text-center">
+          <!-- TODODEL -->
+          <!-- <li class="col-12 col-sm-3 text-center">
             <a href="https://www.instagram.com/sandra51333/" target="_blank">
               <i class="fa-brands fa-instagram" style="color: #999b85;"></i>
-              <!-- <img src="img/social_2.png" alt=""> -->
             </a>
-          </li>
-
-          <li class="col-12 col-sm-3 text-center">
-            <a href="mailto:sandra05213@gmail.com">
-              <i class="fa-regular fa-envelope" style="color: #999b85;"></i>
-              <!-- <img src="img/social_3.png" alt=""> -->
-            </a>
-          </li>
-
-          <li class="col-12 col-sm-3 text-center">
+          </li> -->
+          <!-- TODODEL -->
+          <!-- TODODEL -->
+          <li class="col-12 col-md-4 text-center my-5">
             <a href="https://line.me/ti/p/nODVJt2U-u" target="_blank">
               <i class="fa-brands fa-line" style="color: #999b85;"></i>
-              <!-- <img src="img/social_4.png" alt=""> -->
+            </a>
+          </li>
+          <!-- TODODEL -->
+          <li class="col-12 col-md-4 text-center my-5">
+            <a href="mailto:sandra05213@gmail.com">
+              <i class="fa-regular fa-envelope" style="color: #999b85;"></i>
             </a>
           </li>
         </ul>
@@ -270,7 +275,7 @@
 
     <!--------------TOP------------------------------->
 
-    <div class="top mb-5">
+    <div class="mb-5 text-center">
       <div class="container">
         <!-- 移出class="main" -->
         <button class="toTop" @click="scrollToSection('top')">TOP</button>

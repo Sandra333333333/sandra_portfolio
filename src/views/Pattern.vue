@@ -39,7 +39,7 @@
 export default {
   methods: {
     changeToHome () {
-      this.$router.push('/') // 導航到 B 頁面
+      this.$router.push('/') // 導航到 Home 頁面
     }
   }
 }

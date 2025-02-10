@@ -23,6 +23,26 @@ const routes = [
     component: () => import('../views/UiuxNew.vue')
   },
   {
+    path: '/uiux/carloan_pad',
+    name: 'carloan_pad',
+    component: () => import('../views/uiux/CarLoan_Pad.vue')
+  },
+  {
+    path: '/uiux/carloan_phone',
+    name: 'carloan_phone',
+    component: () => import('../views/uiux/CarLoan_Phone.vue')
+  },
+  {
+    path: '/uiux/mobile_clock_in',
+    name: 'mobile_clock_in',
+    component: () => import('../views/uiux/MobileClockIn.vue')
+  },
+  {
+    path: '/uiux/medical_equipment',
+    name: 'medical_equipment',
+    component: () => import('../views/uiux/MedicalEquipment.vue')
+  },
+  {
     path: '/fixing',
     name: 'fixing',
     component: () => import('../views/FixingPage.vue')
