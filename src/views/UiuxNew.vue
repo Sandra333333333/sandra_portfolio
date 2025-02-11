@@ -29,7 +29,7 @@
                 </button>
             </div>
             <div class="col">
-                <button @click="changeToFixing" class="card w-100 d-block">
+                <button @click="changeToMCI" class="card w-100 d-block">
                     <!-- <img class="m-3" src="img/pattern1.jpg" alt=""> -->
                     <!-- <i class="fa-solid fa-mobile-screen text-center m-4 align-item-center"
                         style="font-size:65px; color:#fff;"></i> -->
