@@ -3,43 +3,43 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
             <div class="carousel-inner" style="height: 90%;background-size: contain;">
                 <div class="carousel-item my-5 active" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_01.png" class="d-block mx-auto w-75" alt="Pattern1">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_01.png" class="d-block mx-auto w-75" alt="CarLoanPad01">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_02.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_02.png" class="d-block mx-auto w-75" alt="CarLoanPad02">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_03.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_03.png" class="d-block mx-auto w-75" alt="CarLoanPad03">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_04.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_04.png" class="d-block mx-auto w-75" alt="CarLoanPad04">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_05.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_05.png" class="d-block mx-auto w-75" alt="CarLoanPad05">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_06.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_06.png" class="d-block mx-auto w-75" alt="CarLoanPad06">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_07.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_07.png" class="d-block mx-auto w-75" alt="CarLoanPad07">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_08.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_08.png" class="d-block mx-auto w-75" alt="CarLoanPad08">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_09.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_09.png" class="d-block mx-auto w-75" alt="CarLoanPad09">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_10.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_10.png" class="d-block mx-auto w-75" alt="CarLoanPad10">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_11.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_11.png" class="d-block mx-auto w-75" alt="CarLoanPad11">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_12.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_12.png" class="d-block mx-auto w-75" alt="CarLoanPad12">
                 </div>
                 <div class="carousel-item my-5" data-bs-interval="3000">
-                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_13.png" class="d-block mx-auto w-75" alt="Pattern2">
+                    <img src="@/assets/images/uiux/CarLoanPad/carloanpad_13.png" class="d-block mx-auto w-75" alt="CarLoanPad13">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
