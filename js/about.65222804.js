@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue3_sandraprotfolio"]=self["webpackChunkvue3_sandraprotfolio"]||[]).push([[594],{6630:function(n,r,u){u.r(r),u.d(r,{default:function(){return f}});var t=u(6768);const a={class:"about"};function e(n,r){return(0,t.uX)(),(0,t.CE)("div",a,r[0]||(r[0]=[(0,t.Lk)("h1",null,"UIUX",-1)]))}var o=u(1241);const s={},c=(0,o.A)(s,[["render",e]]);var f=c}}]);
+//# sourceMappingURL=about.65222804.js.map
