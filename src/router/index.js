@@ -18,11 +18,6 @@ const routes = [
     component: () => import('../views/Uiux.vue')
   },
   {
-    path: '/uiuxnew',
-    name: 'uiuxnew',
-    component: () => import('../views/UiuxNew.vue')
-  },
-  {
     path: '/uiux/carloan_pad',
     name: 'carloan_pad',
     component: () => import('../views/uiux/CarLoan_Pad.vue')

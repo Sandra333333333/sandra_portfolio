@@ -37,7 +37,7 @@
         </div>
 
         <div class="my-4 text-center">
-            <button @click="changeToUiuxNew" class="btn-back d-block p-2">
+            <button @click="changeToUiux" class="btn-back d-block p-2">
                 <h3> - Back - </h3>
             </button>
         </div>
@@ -47,8 +47,8 @@
 <script>
 export default {
   methods: {
-    changeToUiuxNew () {
-      this.$router.push('/uiuxnew') // 導航到 Uiux 頁面
+    changeToUiux () {
+      this.$router.push('/uiux') // 導航到 Uiux 頁面
     }
   }
 }
