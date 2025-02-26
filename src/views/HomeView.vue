@@ -39,14 +39,9 @@
           </li>
           <li class="btn5 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
             <button @click="scrollToSection('social')">
-              SOCIAL
+              CONTACT ME
             </button>
           </li>
-          <!-- <li class="btn5 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
-        <button v-for="(section, index) in sections" :key="index" :class="{ active: currentSection === index }" @click="scrollToSection(index)">
-          SOCIAL
-        </button>
-      </li> -->
         </ul>
       </div>
     </div>
@@ -54,10 +49,8 @@
 
     <div class="about mb-5" id="about">
       <div class="main container">
-        <!-- 移出class="main" -->
         <h2>ABOUT</h2>
         <div class="row g-5 mb-5">
-          <!-- aboutbottom -->
           <img class="col-12 col-md-5 col-lg-4 m-auto h-100" src="@/assets/images/S_2539626.jpg" alt="selfie photo">
           <div class="col-12 col-md-7 col-lg-8 my-auto p-5">
             <p style="font-weight: 700;">&ensp;# 關於我</p>
@@ -77,13 +70,6 @@
             <p style="font-weight: 700;">&ensp;# 未來規劃</p>
             <p>回顧過去的工作經驗，我累積了使用者需求確認及跨部門溝通的能力，也了解專案開發流程。未來，我期許自己持續精進 Vue.js 前端開發技能，並深化應用，同時提升策略思考與商業分析能力。此外，我也將持續學習後端資料處理技術，以提升團隊合作的效率，幫助公司解決問題並創造價值。</p>
           </div>
-          <!-- <a href="https://id.mcut.edu.tw/" target="_blank">
-              ＃明志科技大學 工業設計系 畢業
-            </a>
-            <br>
-            <a href="http://home.slhs.tp.edu.tw/adv/index.html" target="_blank">
-              ＃士林高商 廣告設計科 畢業
-            </a> -->
         </div>
       </div>
     </div>
@@ -110,71 +96,19 @@
               <h3 class="mb-3">UIUX</h3>
             </button>
           </div>
-          <!-- <div class="col">
-          <a class="card" style="background-color:rgba(255, 255, 255, .2);border-radius:10px;">
-            <i class="fa-solid fa-pager text-center m-5 align-item-center" style="font-size:65px; color:#fff;"></i>
-            <h3 class="mb-3">FRONT-END</h3>
-          </a>
         </div>
-        <div class="col">
-          <a class="card" style="background-color:rgba(255, 255, 255, .2);border-radius:10px;">
-            <i class="text-center m-5 align-item-center fa-regular fa-object-group" style="font-size:65px; color:#fff;"></i>
-            <h3 class="mb-3">OTHER</h3>
-          </a>
-        </div> -->
-        </div>
-
-        <!-- <div class="d-grid gap-2 d-md-block"><button
-            style="background-color:rgba(255, 255, 255, .2);border-radius:10px;height:180px;"
-            class="row-cols-2 row-cols-md-2 row-cols-lg-2 g-5 mb-5 ">
-            <i class="fa-solid fa-chess-board text-center m-5 align-item-center" style="font-size:65px;color:#fff;"></i>
-            <h3 class="mb-3">PATTERN</h3>
-          </button><button class="row-cols-2 row-cols-md-2 row-cols-lg-2 g-5 mb-5 "
-            style="background-color:rgba(255, 255, 255, .2);border-radius:10px;height:180px;">
-            <i class="fa-solid fa-mobile-screen text-center m-5 align-item-center"
-              style="font-size:65px;color:#fff;"></i>
-            <h3 class="mb-3">UIUX</h3>
-          </button>
-        </div> -->
-
-        <!-- <ul>
-        <a href="javascript:;">
-          <li>
-            <img src="img/pattern1.jpg" alt="">
-            <h3>PATTERN</h3>
-          </li>
-        </a>
-        <a href="javascript:;">
-          <li>
-            <img src="img/P1030646.png" alt="">
-            <h3>SKETCH</h3>
-          </li>
-        </a>
-        <a href="javascript:;">
-          <li>
-            <img src="img/P1030665.png" alt="">
-            <h3>COLOURED</h3>
-          </li>
-        </a>
-        <a href="javascript:;">
-          <li>
-            <img src="img/新秀_1.png" alt="">
-            <h3>PROJECT</h3>
-          </li>
-        </a>
-      </ul> -->
       </div>
     </div>
 
     <!-----------經歷EXPERINCE------------------------->
     <div class="experience mb-5" id="experience">
       <div class="main container">
-        <!-- 移出class="main" -->
         <h2>EXPERIENCE</h2>
-        <div class="exbottom text-center">
-
-          <div>
-
+        <div class="exbottom mx-auto">
+        <!-- 這邊移除text-center -->
+          <Experience />
+          <!-- <ExperienceTimeLine /> -->
+          <!-- <div>
             <h4>工程師 // 裕融企業股份有限公司 // 台北市大安區 // 2022. 04 - 2024. 07</h4>
             <p class="remark">
               #adobe illustrator #adobe photoshop #adobe XD #vue #bootstrap #css #html
@@ -186,9 +120,9 @@
               > 公司內部簽核系統續約用印與乙方廠商溝通報價等事宜。<br>
               > 使用Illustrator繪製網頁所需的icon，增加介面的表達及豐富度。
             </p>
-          </div>
+          </div> -->
 
-          <div class="mt-5">
+          <!-- <div class="mt-5">
             <h4>約聘人員 // 新北市文化局文設科-板橋435藝文特區 // 新北市板橋區 // 2021. 01 - 2021. 12</h4>
             <p class="remark">
               #adobe illustrator #adobe photoshop #word #google excel #excel
@@ -198,9 +132,9 @@
               > 與每個檔期的展覽者溝通官網圖片的調整，並將圖片及展覽資訊製成網站上架的規格。<br>
               > 疫情期間滾動調整展覽開放聯繫事宜，協助不同展覽者將時段延後討論，使展覽者順利展出。
             </p>
-          </div>
+          </div> -->
 
-          <div class="my-5">
+          <!-- <div class="my-5">
             <h4>設計實習生 // 台塑總管理處創意設計中心 // 台北市松山區 // 2018. 09 - 2019. 09</h4>
             <p class="remark">
               #adobe illustrator #adobe photoshop #adobe indesign
@@ -209,7 +143,7 @@
               > 依照年度流行色彩設計不同四方連續花紋，印於膠皮上協助製作樣冊，可供廠商客戶們觀賞並下單。<br>
               > 布料、塑膠皮料協助切割及列印，使樣冊能與廠商約定日期前順利進行。
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -217,7 +151,6 @@
     <!------------我會的技能SKILL------------------------>
     <div class="skill pb-5" id="skill">
       <div class="main container">
-        <!-- 移出class="main" -->
         <h2>SKILL</h2>
         <div class="sk-list">
           <ul class="row g-3 justify-content-around">
@@ -234,36 +167,18 @@
 
     <div class="social mb-5" id="social">
       <div class="main container">
-        <!-- 移出class="main" -->
-        <h2>SOCIAL</h2>
+        <h2>CONTACT ME</h2>
         <ul class="so-bottom g-5 mb-5 row justify-content-around">
-
-          <!-- TODODEL -->
-          <!-- <li class="col-12 col-sm-3 text-center">
-            <a href="https://www.facebook.com/sandra.purple.73/" target="_blank">
-              <i class="fa-brands fa-square-facebook" style="color: #999b85;"></i>
-            </a>
-          </li> -->
-          <!-- TODODEL -->
           <li class="col-12 col-md-4 text-center my-5">
             <a href="https://github.com/Sandra333333333" target="_blank">
               <i class="fa-brands fa-github" style="color: #999b85;"></i>
             </a>
           </li>
-          <!-- TODODEL -->
-          <!-- <li class="col-12 col-sm-3 text-center">
-            <a href="https://www.instagram.com/sandra51333/" target="_blank">
-              <i class="fa-brands fa-instagram" style="color: #999b85;"></i>
-            </a>
-          </li> -->
-          <!-- TODODEL -->
-          <!-- TODODEL -->
           <li class="col-12 col-md-4 text-center my-5">
             <a href="https://line.me/ti/p/nODVJt2U-u" target="_blank">
               <i class="fa-brands fa-line" style="color: #999b85;"></i>
             </a>
           </li>
-          <!-- TODODEL -->
           <li class="col-12 col-md-4 text-center my-5">
             <a href="mailto:sandra05213@gmail.com">
               <i class="fa-regular fa-envelope" style="color: #999b85;"></i>
@@ -277,12 +192,10 @@
 
     <div class="mb-5 text-center">
       <div class="container">
-        <!-- 移出class="main" -->
         <button class="toTop" @click="scrollToSection('top')">TOP</button>
       </div>
 
     </div>
-    <!-- <ScrollPage /> -->
 
     <!--------------COPYRIGHT--------------------------->
     <footer>
@@ -292,26 +205,8 @@
 </template>
 
 <script>
+import Experience from '@/components/Experience.vue'
 
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
-// export default {
-//   name: 'HomeView',
-//   components: {
-//     HelloWorld
-//   }
-// }
-
-// TEST SCROLL
-// import ScrollPage from '@/components/ScrollPage.vue'
-
-// export default {
-//   components: {
-//     ScrollPage
-//   }
-// }
-// TEST SCROLL(END)
 export default {
   data () {
     return {
@@ -341,6 +236,15 @@ export default {
     changeToFixing () {
       this.$router.push('/fixing') // 導航到 fixing 頁面
     }
+  },
+  components: {
+    Experience
   }
 }
+// export default {
+//   name: 'HomeView',
+//   components: {
+//     HelloWorld
+//   }
+// }
 </script>

@@ -70,7 +70,7 @@ label {
     --mainColor: #999b85;
     --wordColor: #808080;
     --lightColor: #f5eeee;
-    --darkColor: #757065;
+    --darkColor: rgb(117, 112, 101);
     --dangerColor: #d70000;
 }
 
@@ -269,9 +269,9 @@ header h1{
 	display: flex;
 }
 
-.exbottom{
+/* .exbottom{
 	margin: 0 auto;
-}
+} */
 
 .exbottom h4{
 	font-size: 1.8rem;
