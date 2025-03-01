@@ -104,7 +104,7 @@
     <div class="experience mb-5" id="experience">
       <div class="main container">
         <h2>EXPERIENCE</h2>
-        <div class="exbottom mx-auto">
+        <div class="exbottom mx-auto mb-4">
         <!-- 這邊移除text-center -->
           <Experience />
           <!-- <ExperienceTimeLine /> -->

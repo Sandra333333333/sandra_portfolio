@@ -6,11 +6,13 @@
           {{ experience.date }}
         </h4>
         <br>
-        <h4>{{ experience.title }} // {{ experience.company }} // {{ experience.address }}</h4>
-        <p class="remark d-inline" v-for="(skill, sIndex) in experience.skills" :key="sIndex">
-          # {{ skill.tag }}&ensp;
-        </p>
-        <p v-for="(description, dIndex) in experience.descriptions" :key="dIndex">
+        <h4 class="text-wrap mx-auto" style="width: 95%;">{{ experience.title }} // {{ experience.company }} // {{ experience.address }}</h4>
+        <div class="text-wrap mx-auto" style="width: 95%;">
+          <p class="remark d-inline mx-auto" v-for="(skill, sIndex) in experience.skills" :key="sIndex">
+            # {{ skill.tag }}&ensp;
+          </p>
+        </div>
+        <p class="text-wrap mx-auto" v-for="(description, dIndex) in experience.descriptions" :key="dIndex" style="width: 95%;">
           >&emsp;{{ description.tag }}
         </p>
       </div>
@@ -92,9 +94,10 @@ export default {
   }
 }
 </script>
-<style>
+
+<style scoped>
 .timeline {
-  width: 2.5px;
+  width: 1.5px;
   background-color: var(--wordColor);
   padding-top: 50px;
   margin-left: 20px;
@@ -115,14 +118,14 @@ export default {
   background-color: rgb(194 195 182);
   border-radius: 3px;
   left: 50%;
-  transform: translateX(-40%);
+  transform: translateX(-48%);
   transform-origin: center center;
   transition: all 1.2s;
 }
 
 .timeline-item.hover:before {
   background: var(--mainColor);
-  transform: translateX(-40%) scale(1.2);
+  transform: translateX(-48%) scale(1.2);
 }
 
 .timeline-content {
@@ -165,22 +168,4 @@ export default {
 .timeline-item.hover .timeline-content:before {
   border: 1px solid var(--mainColor);
 }
-
-/* @media(min-width: 1024px) {
-  .timeline-date {
-    width: 25%;
-  }
-}
-
-@media(min-width 768px) {
-  .timeline-date {
-    width: 50%;
-  }
-}
-
-@media(min-width: 480px) {
-  .timeline-date {
-    width: 100%;
-  }
-} */
 </style>
