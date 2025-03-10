@@ -6,7 +6,7 @@
           {{ experience.date }}
         </h4>
         <br>
-        <h4 class="text-wrap mx-auto" style="width: 95%;">{{ experience.title }} // {{ experience.company }} // {{ experience.address }}</h4>
+        <h4 class="text-wrap mx-auto" style="width: 95%;">{{ experience.company }} {{ experience.title }} {{ experience.address }}</h4>
         <div class="text-wrap mx-auto" style="width: 95%;">
           <p class="remark d-inline mx-auto" v-for="(skill, sIndex) in experience.skills" :key="sIndex">
             # {{ skill.tag }}&ensp;
@@ -27,12 +27,29 @@ export default {
       hoveredIndex: null,
       experiences: [
         {
-          title: '網頁設計師',
-          company: '裕融企業股份有限公司',
-          date: '04. 2022 - 07. 2024',
-          address: '台北市大安區',
+          title: '學習網頁爬蟲如Python語言等相關知識',
+          company: '',
+          date: '08. 2024 - Now',
+          address: '',
           skills: [
-            { tag: 'Adobe Illustrator' }, { tag: 'Adobe Photoshop' }, { tag: 'Adobe XD' }, { tag: 'Vue3' }, { tag: 'Bootstrap5' }, { tag: 'CSS' }, { tag: 'HTML' }
+            { tag: 'Python' }, { tag: 'Vue3' }, { tag: 'HTML' }, { tag: 'Bootstrap5' }
+          ],
+          descriptions: [
+            {
+              tag: '積極參加政府等公家機關舉辦的專業Python課程，聊解後端資料處理的相關概念以拓展知識的全面性。'
+            },
+            {
+              tag: '加以複習並補充原本的前端Vue.js框架知識。'
+            }
+          ]
+        },
+        {
+          title: '擔任 網頁設計師',
+          company: '於 裕融企業股份有限公司',
+          date: '04. 2022 - 07. 2024',
+          address: '// 台北市大安區',
+          skills: [
+            { tag: 'Adobe Illustrator' }, { tag: 'Adobe Photoshop' }, { tag: 'Adobe XD' }, { tag: 'Vue3' }, { tag: 'Vue2' }, { tag: 'Bootstrap5' }, { tag: 'CSS' }, { tag: 'HTML' }
           ],
           descriptions: [
             {
@@ -53,10 +70,10 @@ export default {
           ]
         },
         {
-          title: '行政人員',
-          company: '新北市文化局文設科-板橋435藝文特區',
+          title: '擔任 行政人員',
+          company: '於 新北市文化局文設科-板橋435藝文特區',
           date: '01. 2021 - 12. 2021',
-          address: '新北市板橋區',
+          address: '// 新北市板橋區',
           skills: [
             { tag: 'Adobe illustrator' }, { tag: 'Adobe Photoshop' }, { tag: 'Word' }, { tag: 'Excel' }, { tag: 'Google Excel' }
           ],
@@ -73,10 +90,10 @@ export default {
           ]
         },
         {
-          title: '設計實習生',
-          company: '台塑總管理處創意設計中心',
+          title: '擔任 設計實習生',
+          company: '於 台塑總管理處創意設計中心',
           date: '09. 2018 - 09. 2019 ',
-          address: '台北市松山區',
+          address: '// 台北市松山區',
           skills: [
             { tag: 'Adobe illustrator' }, { tag: 'Adobe Photoshop' }, { tag: 'Adobe Indesign' }
           ],
