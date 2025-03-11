@@ -6,7 +6,7 @@
           {{ experience.date }}
         </h4>
         <br>
-        <h4 class="text-wrap mx-auto" style="width: 95%;">{{ experience.company }} {{ experience.title }} {{ experience.address }}</h4>
+        <h4 class="text-wrap mx-auto" style="width: 95%;">{{ experience.company }}{{ experience.title }} {{ experience.address }}</h4>
         <div class="text-wrap mx-auto" style="width: 95%;">
           <p class="remark d-inline mx-auto" v-for="(skill, sIndex) in experience.skills" :key="sIndex">
             # {{ skill.tag }}&ensp;
@@ -44,8 +44,8 @@ export default {
           ]
         },
         {
-          title: '擔任 網頁設計師',
-          company: '於 裕融企業股份有限公司',
+          title: '擔任網頁設計師',
+          company: '於裕融企業股份有限公司',
           date: '04. 2022 - 07. 2024',
           address: '// 台北市大安區',
           skills: [
@@ -70,8 +70,8 @@ export default {
           ]
         },
         {
-          title: '擔任 行政人員',
-          company: '於 新北市文化局文設科-板橋435藝文特區',
+          title: '擔任行政人員',
+          company: '於新北市文化局文設科-板橋435藝文特區',
           date: '01. 2021 - 12. 2021',
           address: '// 新北市板橋區',
           skills: [
@@ -90,8 +90,8 @@ export default {
           ]
         },
         {
-          title: '擔任 設計實習生',
-          company: '於 台塑總管理處創意設計中心',
+          title: '擔任設計實習生',
+          company: '於台塑總管理處創意設計中心',
           date: '09. 2018 - 09. 2019 ',
           address: '// 台北市松山區',
           skills: [
