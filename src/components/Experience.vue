@@ -115,7 +115,7 @@ export default {
 <style scoped>
 .timeline {
   width: 1.5px;
-  background-color: var(--wordColor);
+  background-color: #c6c6c6;
   padding-top: 50px;
   margin-left: 20px;
   border-radius: 3px;
@@ -132,7 +132,7 @@ export default {
   display: block;
   width: 20px;
   height: 20px;
-  background-color: #c2c3b6;
+  background-color: var(--mainColor);
   border-radius: 3px;
   left: 50%;
   transform: translateX(-48%);
@@ -160,7 +160,7 @@ export default {
 }
 
 .timeline-date {
-  background-color: rgb(194, 195, 182);
+  background-color: #c6c6c6;
   color: white;
   transition: all 0.8s;
 }
@@ -178,7 +178,8 @@ export default {
   height: 1px;
   left: -39px;
   top: 33px;
-  border: 1px dashed rgb(194, 195, 182);
+  /* border: 1px dashed rgb(194, 195, 182); */
+  border: 1px dashed #c6c6c6;
   transition: all 2s;
 }
 

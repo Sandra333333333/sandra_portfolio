@@ -9,7 +9,7 @@
 
     <header id="top">
       <h1>HELLO, I'm SANDRA</h1>
-      <h3 class="text-center">I GRADUATED FORM INDUSTRAL DESIGN</h3>
+      <!-- <h3 class="text-center">I GRADUATED FORM INDUSTRAL DESIGN</h3> -->
     </header>
 
     <!-----------主選單--------------------------------->
@@ -84,7 +84,7 @@
             <button @click="changeToPattern" class="card w-100 d-block">
               <!-- <img class="m-3" src="img/pattern1.jpg" alt=""> -->
               <i class="fa-solid fa-chess-board text-center m-4 align-item-center"
-                style="font-size:65px; color:#fff;"></i>
+                style="font-size:65px; color: #ff7300;"></i>
               <h3 class="mb-3">PATTERN</h3>
             </button>
           </div>
@@ -92,7 +92,7 @@
             <button @click="changeToUiux" class="card w-100 d-block">
               <!-- <img class="m-3" src="img/pattern1.jpg" alt=""> -->
               <i class="fa-solid fa-mobile-screen text-center m-4 align-item-center"
-                style="font-size:65px; color:#fff;"></i>
+                style="font-size:65px; color: #ff7300;"></i>
               <h3 class="mb-3">UIUX</h3>
             </button>
           </div>
@@ -157,12 +157,12 @@
             <li class="col-12 col-md-4" v-for="(skill, index) in skills" :key="index">
               <svg width="100" height="100" viewBox="0 0 100 100">
                 <!-- 背景圓環 -->
-                <circle cx="50" cy="50" r="40" stroke="#bfc1b3" stroke-width="18" fill="none"></circle>
+                <circle cx="50" cy="50" r="40" stroke="#fdefc0" stroke-width="18" fill="none"></circle>
                 <!-- 進度圓環 -->
-                <circle cx="50" cy="50" r="40" stroke="#e6e6e1" stroke-width="18.2" fill="none" stroke-dasharray="251.2" :stroke-dashoffset="251.2 - (251.2 * skill.percent / 100)" stroke-linecap="round" transform="rotate(-90 50 50)" ></circle>
+                <circle cx="50" cy="50" r="40" stroke="#ff7300" stroke-width="18.2" fill="none" stroke-dasharray="251.2" :stroke-dashoffset="251.2 - (251.2 * skill.percent / 100)" stroke-linecap="round" transform="rotate(-90 50 50)" ></circle>
               </svg>
               <!-- 技能名稱 -->
-              <p class="skill-name mt-2" style="color: #f5eeee;">{{ skill.name }}&ensp;||&ensp;{{ skill.percent }}% </p>
+              <h3 class="skill-name mt-4" style="color: #ff8520;">{{ skill.name }}&ensp;||&ensp;{{ skill.percent }}% </h3>
               <!-- {{ skill.name }} -->
             </li>
           </ul>
@@ -176,20 +176,20 @@
     <div class="social mb-5" id="social">
       <div class="main container">
         <h2>CONTACT ME</h2>
-        <ul class="so-bottom g-5 mb-5 row justify-content-around">
-          <li class="col-12 col-md-4 text-center my-5">
+        <ul class="so-bottom g-5 mb-5 row justify-content-evenly">
+          <li class="col-12 col-md-4 text-center my-5" style="background-color: #fdefc0;height: 150px;width: 150px;text-align: center;padding: auto 0;border-radius: 50%;display: flex;justify-content: center;align-items: center;">
             <a href="https://github.com/Sandra333333333" target="_blank">
-              <i class="fa-brands fa-github" style="color: #999b85;"></i>
+              <i class="fa-brands fa-github" style="color: #ff7300;"></i>
             </a>
           </li>
-          <li class="col-12 col-md-4 text-center my-5">
+          <li class="col-12 col-md-4 text-center my-5" style="background-color: #fdefc0;height: 150px;width: 150px;text-align: center;padding: auto 0;border-radius: 50%;display: flex;justify-content: center;align-items: center;">
             <a href="https://line.me/ti/p/nODVJt2U-u" target="_blank">
-              <i class="fa-brands fa-line" style="color: #999b85;"></i>
+              <i class="fa-brands fa-line" style="color: #ff7300;"></i>
             </a>
           </li>
-          <li class="col-12 col-md-4 text-center my-5">
+          <li class="col-12 col-md-4 text-center my-5" style="background-color: #fdefc0;height: 150px;width: 150px;text-align: center;padding: auto 0;border-radius: 50%;display: flex;justify-content: center;align-items: center;">
             <a href="mailto:sandra05213@gmail.com">
-              <i class="fa-regular fa-envelope" style="color: #999b85;"></i>
+              <i class="fa-regular fa-envelope" style="color: #ff7300;"></i>
             </a>
           </li>
         </ul>

@@ -68,11 +68,15 @@ label {
 
 :root {
     /* --mainColor: #999b85; */
-	--mainColor: #999b85;
+	/* --mainColor: #859b89; */
+	/* --mainColor: #99b29e; */
+	/* --mainColor: #EBE5C2; */
+	--mainColor: #ffd462;
     --wordColor: #808080;
     --lightColor: #f5eeee;
     --darkColor: #757065;
     --dangerColor: #d70000;
+	--contrastColor: #EBE5C2;
 }
 
 /*-- //Reset-Code --*/
@@ -85,7 +89,7 @@ body{
 	background-color: #fefefe;
 	position: relative;
 	/* font-family: times new roman,'微軟正黑體'; */
-	color: #777;      /*大部分文字的顏色*/
+	color: #929292;      /*大部分文字的顏色*/
 }
 
 .main{
@@ -96,15 +100,19 @@ body{
 
 h2{
 	line-height: 150px;
-	font-size: 6.0rem;
+	/* font-size: 6.0rem; */
+	font-size: 5.6rem;
 	text-align: center;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+	/* text-shadow: 2px 2px 3px rgba(0, 0, 0, .5); */
 	margin: 0 auto;
 	transform: scaleY(0.9);
+	font-weight: 650;
 }
 
 h3{
-	font-size: 2.4rem;
+	/* font-size: 2.4rem; */
+	font-size: 2.1rem;
+	font-weight: 600;
 }
 
 p{
@@ -118,7 +126,7 @@ p{
 
 /*---------主視覺---------------------------------*/
 header{
-	background-image: url(../images/header_1.jpg);
+	background-image: url(../images/header_2.jpg);
 	background-size: cover;
 	height: 550px;
 	display: flex;
@@ -132,15 +140,17 @@ header{
 
 
 header h1{
-	font-size: 9.0rem;
-	margin-bottom: 25px;
+	font-size: 7rem;
+	/* margin-bottom: 25px; */
 	text-align: center;
+	font-weight: 550;
+    opacity: 90%;
 }
 
 
 /*---------主選單---------------------------------*/
 .sel{
-	background-color: var(--darkColor);
+	background-color: var(--mainColor);
 }
 
 .sel ul{
@@ -172,15 +182,19 @@ header h1{
 	/* display: block; */
 	line-height: 65px;
 	/* text-align: center; */
-	font-size: 2.2rem;
-	color: var(--lightColor);
+	/* font-size: 2.2rem; */
+	font-size: 2.1rem;
+	/* color: var(--lightColor); */
+	color: white;
 	background-color: transparent;
 	border: 0;
+	font-weight: 600;
 }
 
 .sel li:hover{
-	background-color: #333;
-	color: var(--mainColor);
+	/* background-color: #333; */
+	background-color: #ff7300;
+	/* color: var(--mainColor); */
 }
 
 /*-----------關於ABOUT----------------------------*/
@@ -219,7 +233,8 @@ header h1{
 .collection{
 	background-color: var(--mainColor);
 	overflow: hidden;
-	color: var(--lightColor);
+	/* color: var(--lightColor); */
+	color: white;
 	margin: 0 auto;
 	display: flex;
 }
@@ -241,10 +256,11 @@ header h1{
 } */
 .collection button {
 	transition: all 0.5s;
-	background-color:rgba(255, 255, 255, .2);
-	border-radius:18px;
-	height:210px;
-	opacity: 80%;
+    background-color: rgba(255, 255, 255, .45);
+    border-radius: 18px;
+    height: 210px;
+    opacity: 80%;
+    border: 2.5px solid #ff7300;
 }
 
 .collection button:hover {
@@ -264,7 +280,8 @@ header h1{
 
 .collection h3 {
 	text-align: center;
-	color: var(--lightColor);
+	/* color: var(--lightColor); */
+	color: #ff7300;
 }
 
 /*-----------經歷EXPERINCE-----------------------*/
@@ -284,6 +301,8 @@ header h1{
 
 .remark {
 	font-size: 1.4rem;
+	font-weight: 500;
+	color: var(--mainColor);
 }
 
 
@@ -301,7 +320,8 @@ header h1{
 }
 
 .skill h2{
-	color: var(--lightColor);
+	/* color: var(--lightColor); */
+	color: white;
 }
 
 .sk-list ul{
@@ -361,9 +381,10 @@ header h1{
 
 /*--------------TOP buttom---------------------------------*/
 .toTop {
-    border: 2px solid var(--mainColor);
+    border: 2px solid #ff7300;
+	/* border: 2px solid transparent; */
     width: 190px;
-    color: var(--mainColor);
+    color: #ff7300;
     text-align: center;
     line-height: 45px;
     margin: 0px auto;
@@ -371,25 +392,27 @@ header h1{
     font-size: 18px;
     font-weight: bold;
     transition: all 1s;
-    background-color: transparent;
+    /* background-color: #fdefc0; */
+	background-color: transparent;
 }
 
 .toTop:hover {
     /* text-shadow:  3px 3px 3px rgba(0, 0, 0, .5); */
-    border: 2px solid var(--mainColor);
+    border: 2px solid #ff7300;
     box-shadow:  1px 2px 3px rgba(0, 0, 0, .5);
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
 }
 /*--------------COPYRIGHT---------------------------*/
 footer{
-	background-color: #3C3D35;
+	/* background-color: #3C3D35; */
 	height: 30px;
 	margin: 0 auto;
+	border-top: 1px solid #c6c6c6;
 }
 
 footer p{
 	font-size: 12px;
-	color: var(--lightColor);
+	color: #929292;
 	text-align: center;
 	line-height: 30px;
 }
