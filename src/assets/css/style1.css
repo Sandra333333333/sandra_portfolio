@@ -6,7 +6,7 @@ body {
     margin: 0;
     background: #FFF;
 	/* font-family: times new roman,'微軟正黑體'; */
-	font-family: times new roman,"Noto Sans TC", serif;
+	font-family: "Noto Sans TC", serif;
 	font-style: normal;
 	font-optical-sizing: auto;
 }
@@ -44,7 +44,7 @@ button[type="button"]:hover {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
 	line-height: 1.6;
 }
 
@@ -67,10 +67,11 @@ label {
 }
 
 :root {
-    --mainColor: #999b85;
+    /* --mainColor: #999b85; */
+	--mainColor: #999b85;
     --wordColor: #808080;
     --lightColor: #f5eeee;
-    --darkColor: rgb(117, 112, 101);
+    --darkColor: #757065;
     --dangerColor: #d70000;
 }
 
@@ -99,6 +100,7 @@ h2{
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
 	margin: 0 auto;
+	transform: scaleY(0.9);
 }
 
 h3{
@@ -311,7 +313,7 @@ header h1{
 	width: 300px;
 	line-height: 50px;
 	box-sizing: border-box;
-	border: 2px solid var(--lightColor);
+	/* border: 2px solid var(--lightColor); */
 	color: var(--lightColor);
 	text-align: center;
 	text-decoration: none;

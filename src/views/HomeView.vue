@@ -155,7 +155,15 @@
         <div class="sk-list">
           <ul class="row g-3 justify-content-around">
             <li class="col-12 col-md-4" v-for="(skill, index) in skills" :key="index">
-              {{ skill.name }}
+              <svg width="100" height="100" viewBox="0 0 100 100">
+                <!-- 背景圓環 -->
+                <circle cx="50" cy="50" r="40" stroke="#bfc1b3" stroke-width="18" fill="none"></circle>
+                <!-- 進度圓環 -->
+                <circle cx="50" cy="50" r="40" stroke="#e6e6e1" stroke-width="18.2" fill="none" stroke-dasharray="251.2" :stroke-dashoffset="251.2 - (251.2 * skill.percent / 100)" stroke-linecap="round" transform="rotate(-90 50 50)" ></circle>
+              </svg>
+              <!-- 技能名稱 -->
+              <p class="skill-name mt-2" style="color: #f5eeee;">{{ skill.name }}&ensp;||&ensp;{{ skill.percent }}% </p>
+              <!-- {{ skill.name }} -->
             </li>
           </ul>
         </div>
@@ -211,12 +219,12 @@ export default {
   data () {
     return {
       skills: [
-        { name: 'ILLUSTRATOR' },
-        { name: 'PHOTOSHOP' },
-        { name: 'ADOBE XD' },
-        { name: 'VUE' },
-        { name: 'BOOTSTRAP' },
-        { name: 'JAVASCRIPT' }
+        { name: 'ILLUSTRATOR', percent: 90 },
+        { name: 'PHOTOSHOP', percent: 85 },
+        { name: 'ADOBE XD', percent: 90 },
+        { name: 'VUE', percent: 73 },
+        { name: 'BOOTSTRAP5', percent: 88 },
+        { name: 'JAVASCRIPT', percent: 70 }
       ]
     }
   },

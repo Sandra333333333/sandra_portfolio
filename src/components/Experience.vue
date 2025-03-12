@@ -132,7 +132,7 @@ export default {
   display: block;
   width: 20px;
   height: 20px;
-  background-color: rgb(194 195 182);
+  background-color: #c2c3b6;
   border-radius: 3px;
   left: 50%;
   transform: translateX(-48%);
