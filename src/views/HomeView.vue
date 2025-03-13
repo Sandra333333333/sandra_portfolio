@@ -51,22 +51,11 @@
       <div class="main container">
         <h2>ABOUT</h2>
         <div class="row g-5 mb-5">
-          <img class="col-12 col-md-5 col-lg-4 m-auto h-100" src="@/assets/images/S_2539626.jpg" alt="selfie photo">
-          <div class="col-12 col-md-7 col-lg-8 my-auto p-5">
+          <img class="col-10 col-md-5 col-lg-4 m-auto h-100" src="@/assets/images/S_2539626.jpg" alt="selfie photo">
+          <div class="col-11 col-md-7 col-lg-8 m-auto p-5">
             <p style="font-weight: 700;">&ensp;# 關於我</p>
             <p>我是張庭姍，擁有設計背景，熟悉各類設計軟體，並能將設計思維融入前端開發。同時，我對程式開發充滿熱情，擅長將設計與技術結合，熟悉 HTML、CSS、Bootstrap透過程式解決問題。在工作中，我具備清晰的邏輯思維與強大的學習能力，能夠有效與使用者溝通，理解需求並開發相應的解決方案。此外，我持續自主學習前端開發與網頁爬蟲技術，並積極關注最新的技術趨勢，提升自身能力。</p>
             <br><br>
-            <!-- <p>工作經歷</p>
-            <p>台塑企業創意設計中心實習</p>
-            <p>在實習一年期間，我參與公司專案的視覺設計與素材製作，強化設計軟體應用能力，並於參與公司專案製作皮料樣冊時，提升對標準配色的掌握。</p>
-            <br>
-            <p>前端開發與維運(Vue.js & Bootstrap)</p>
-            <p>自學 Vue3 框架及 Bootstrap，運用於公司官網開發與維護，提升網站效能，並運用公司標準色開發官網新頁面;熟悉 Git 版本控制，進行程式碼管理與團隊協作。</p>
-            <p>跨部門溝通與協作</p>
-            <p>與內部團隊及不同部門合作，確認專案需求並提出解決方案，同時，配合後端工程師 API 介接，確保系統功能順利運行。</p>
-            <p>精進 Python，學習網頁爬蟲技術</p>
-            <p>去年下半年專注於學習可用於網頁爬蟲與數據抓取技術的Python語言，透過課堂中實作，掌握數據抓取與資料處理概念，提升對後端的理解。</p>
-            <br> -->
             <p style="font-weight: 700;">&ensp;# 未來規劃</p>
             <p>回顧過去的工作經驗，我累積了使用者需求確認及跨部門溝通的能力，也了解專案開發流程。未來，我期許自己持續精進 Vue.js 前端開發技能，並深化應用，同時提升策略思考與商業分析能力。此外，我也將持續學習後端資料處理技術，以提升團隊合作的效率，幫助公司解決問題並創造價值。</p>
           </div>
@@ -154,7 +143,7 @@
         <h2>SKILL</h2>
         <div class="sk-list">
           <ul class="row g-3 justify-content-around">
-            <li class="col-12 col-md-4" v-for="(skill, index) in skills" :key="index">
+            <li class="col-12 col-md-4 col-lg-4" v-for="(skill, index) in skills" :key="index">
               <svg width="100" height="100" viewBox="0 0 100 100">
                 <!-- 背景圓環 -->
                 <circle cx="50" cy="50" r="40" stroke="#fdefc0" stroke-width="18" fill="none"></circle>

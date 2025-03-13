@@ -6,13 +6,13 @@
           {{ experience.date }}
         </h4>
         <br>
-        <h4 class="text-wrap mx-auto" style="width: 95%;">{{ experience.company }}{{ experience.title }} {{ experience.address }}</h4>
-        <div class="text-wrap mx-auto" style="width: 95%;">
+        <h4 class="text-wrap ms-auto" style="width: 95%;">{{ experience.company }}{{ experience.title }} {{ experience.address }}</h4>
+        <div class="text-wrap ms-auto" style="width: 95%;">
           <p class="remark d-inline mx-auto" v-for="(skill, sIndex) in experience.skills" :key="sIndex">
             # {{ skill.tag }}&ensp;
           </p>
         </div>
-        <p class="text-wrap mx-auto" v-for="(description, dIndex) in experience.descriptions" :key="dIndex" style="width: 95%;">
+        <p class="text-wrap ms-auto" v-for="(description, dIndex) in experience.descriptions" :key="dIndex" style="width: 95%;">
           >&emsp;{{ description.tag }}
         </p>
       </div>
