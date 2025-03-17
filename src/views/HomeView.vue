@@ -18,27 +18,27 @@
       <div class="container">
         <ul class="row g-2">
           <li class="btn1 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
-            <button @click="scrollToSection('about')">
+            <button @click="scrollToSection('about')" style="text-shadow: 1px 1px 0.5px rgba(96, 73, 0, 0.2);">
               ABOUT
             </button>
           </li>
           <li class="btn2 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
-            <button @click="scrollToSection('collection')">
+            <button @click="scrollToSection('collection')" style="text-shadow: 1px 1px 0.5px rgba(96, 73, 0, 0.2);">
               COLLECTION
             </button>
           </li>
           <li class="btn3 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
-            <button @click="scrollToSection('experience')">
+            <button @click="scrollToSection('experience')" style="text-shadow: 1px 1px 0.5px rgba(96, 73, 0, 0.2);">
               EXPERIENCE
             </button>
           </li>
           <li class="btn4 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
-            <button @click="scrollToSection('skill')">
+            <button @click="scrollToSection('skill')" style="text-shadow: 1px 1px 0.5px rgba(96, 73, 0, 0.2);">
               SKILL
             </button>
           </li>
           <li class="btn5 col-12 col-md-4 col-lg-2 text-center" style="margin-top: 0;">
-            <button @click="scrollToSection('social')">
+            <button @click="scrollToSection('social')" style="text-shadow: 1px 1px 0.5px rgba(96, 73, 0, 0.2);">
               CONTACT ME
             </button>
           </li>
